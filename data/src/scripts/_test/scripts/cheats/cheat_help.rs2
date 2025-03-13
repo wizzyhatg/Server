@@ -20,8 +20,8 @@ if (p_finduid(uid) = true) {
 ~mesbox("@blu@Engine commands|@whi@::seq@bla@/@whi@::anim@bla@ - Play a seq on your player|@whi@::spotanim@bla@ - Play a spotanim on your player|@whi@::loc@bla@ - Spawn a loc under your player|@whi@::npc@bla@ - Spawn an NPC under your player");
 
 [label,account_commands]
-~mesbox("@blu@Account commands|@whi@::reset@bla@ - Reset your progress|@whi@::minme@bla@ - Set all your stats to level 1|@whi@::maxme@bla@ - Set all your stats to level 99|@whi@::setstat@bla@ - Set a stat to a specific level");
-~mesbox("@blu@Account commands|@whi@::addxp@bla@ - Add XP to a skill|@whi@::setxp@bla@ - Set your XP in a skill");
+~mesbox("@blu@Account commands|@whi@::~reset@bla@ - Reset your progress|@whi@::minme@bla@ - Set all your stats to level 1|@whi@::~maxme@bla@ - Set all your stats to level 99|@whi@::setstat@bla@ - Set a stat to a specific level");
+~mesbox("@blu@Account commands|@whi@::~addxp@bla@ - Add XP to a skill|@whi@::setxp@bla@ - Set your XP in a skill");
 ~mesbox("@blu@Account commands|@whi@::1hp@bla@ - Set your health to 1|@whi@::foodbank@bla@ - Fill your bank with food|@whi@::energy@bla@ - Restore your run energy");
 
 [label,item_commands]
